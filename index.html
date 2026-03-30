@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="navbar">
+
+    <!-- LEFT: LOGO -->
+    <div class="logo">
+        <h2>Sovandeth</h2>
+        <p>Data Science</p>
+    </div>
+
+    <!-- RIGHT: NAV + MENU ICON -->
+    <nav class="right">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skill</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <button onclick="toggleDarkMode()" class="dark-btn">🌙</button>
+
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </div>
+
+  <!-- MOBILE DROPDOWN MENU -->
+  <ul id="menu" class="menu">
+    <li onclick="toggleMenu()">Home</li>
+    <li onclick="toggleMenu()">Skill</li>
+    <li onclick="toggleMenu()">Education</li>
+    <li onclick="toggleMenu()">Experience</li>
+    <li onclick="toggleMenu()">Contact</li>
+  </ul>
+
+</header>
+
+
+<section class="hero">
+    
+    <div class="hero-left">
+        <img src="618CGPecmzL._AC_UF894,1000_QL80_.jpg" alt="My Profile">
+    </div>
+
+    <div class="hero-right">
+          <h1>I am a <span class="typing"></span></h1>
+        <p>Data Science Student</p>
+        <p>
+            I am passionate about data analysis, machine learning, 
+            and building intelligent systems such as recommendation tools and chatbots.
+        </p> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<div class="socials">
+  <a href="#"><i class="fab fa-facebook"></i></a>
+  <a href="#"><i class="fab fa-youtube"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+    </div>
+</section>
+
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+
+
+<section style="height: 100vh;"></section>
+
+<section>
+  <h2>About Me</h2>
+  <p>More content here...</p>
+</section>
+
+<section>
+  <h2>Projects</h2>
+</section>
+
+<section>
+  <h2>Contact</h2>
+</section>
+</body>
+</html>
+
+
+
